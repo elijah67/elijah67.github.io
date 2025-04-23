@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey</title>
+<link type="text/css" rel="stylesheet"
+href="CSS/surveystyle.css">
+</head>
+<body>
+<form action="https://formspree.io/f/meogqgqe" method="POST">
+<lebel for="name">Your Name</lebel>
+<input type="text" name="name"><br>
+<label for="Email">Email</label>
+<input type="email" name="Email"><br>
+<label for="question 1">1. What is your favorite flavor?</label>
+<select multiple name="question 1" size=5>
+<option>Chocolate</option>
+<option>vanilla</option>
+<option>strawberry</option>
+</select><br>
+<label for="what pokemon">What Pokemon?</label>
+<select name="what pokemon">
+<option>Pikatchu</option>
+<option>Charzard</option>
+<option>squirtle</option>
+</select><br>
+<label for="activity">what is your favorite activity?</label>
+<input type="text" name="activity"><br>
+<fieldset>
+<legend>Which of these activities do you do?</legend>
+<label><input type="checkbox" name="activities" value="swimming"> Swimming</label><br>
+<label><input type="checkbox" name="activities" value="lounging"> Lounging</label><br>
+ <label><input type="checkbox" name="activities" value="cooking"> Cooking</label><br>
+<label><input type="checkbox" name="activities" value="sleeping"> Sleeping</label><br>
+</fieldset>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>

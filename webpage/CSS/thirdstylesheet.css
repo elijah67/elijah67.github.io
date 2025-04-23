@@ -1,0 +1,20 @@
+body {
+background-color: aquamarine;
+border: 11px solid lawngreen;
+border-radius: 16px;
+font-family: sans-serif;
+margin-left: auto;
+margin-right: auto;
+max-width: 1024px;
+min-width: 256px;
+padding-top: 8px;
+padding-bottom: 24px;
+padding-left: 24px;
+padding-right: 24px;
+}
+h1 {
+color: indianred;
+}
+img {
+border: 12px solid red;
+}
