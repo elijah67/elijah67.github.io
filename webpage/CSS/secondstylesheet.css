@@ -15,6 +15,9 @@ padding-right: 24px;
 h1 {
 color: blueviolet;
 }
-img {
+.cat {
+border: 12px solid red;
+}
+.fam {
 border: 12px solid yellow;
 }
