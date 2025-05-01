@@ -37,7 +37,7 @@ function handleClick(e) {
   }
 
   if (cells.every(cell => cell)) {
-    status.innerText = "It's a boy!";
+    status.innerText = "It's a draw!";
     gameOver = true;
     return;
   }
