@@ -15,3 +15,6 @@ body {
     h1 {
     color: blue;
     }
+    img {
+    border: 12px solid red;
+    }
